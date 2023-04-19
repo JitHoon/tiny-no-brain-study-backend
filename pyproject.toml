@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tiny-no-brain-study-backend"
+version = "0.1.0"
+description = ""
+authors = ["JitHoon <101972330+JitHoon@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tiny_no_brain_study_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
