@@ -15,3 +15,6 @@ class ScheduleAdmin(admin.ModelAdmin):
 
 # 튜플 사용시 ()안에 하나의 element만 들어간다면 ,를 찍어줘야한다.
 # ex. search_fields = ("voted",)
+
+# 공식 문서 : The model layer
+# https://docs.djangoproject.com/en/4.1/
